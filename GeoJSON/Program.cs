@@ -9,8 +9,8 @@ namespace GeoJSON
     {
         static void Main(string[] args)
         {
-            var FileName = "Path/To/Your/LatLong/File";
-            var FileName1 = "Path/To/Your/Codes/File";
+            var FileName = "Path/To/Your/LatLong/TextFile"; //Format: lat long, lat long, lat long ... ;
+            var FileName1 = "Path/To/Your/Codes/TextFile"; //Format: code, code, code ...
             string[] lines;
             string[] codes;
             string[] pairs;
